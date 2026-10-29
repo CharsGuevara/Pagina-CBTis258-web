@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+body{
+    background-image: url(fondo.webp); 
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+header{
+    width: 90%;
+    max-width: 1000px;
+    margin:10px auto;
+    font-family:sans-serif;
+    background-color: #661616;
+    overflow: hidden;
+    border-radius: 6px;
+    position: sticky;
+    top: 0;
+}
+img{
+    float: left;
+    width: 250px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+header nav {
+    background-color: #661616;
+    overflow: hidden;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    float: right;
+}
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(243, 243, 245);
+    text-decoration:none;
+}
+header nav ul li a:hover {
+    background:  #b12f2f;
+    transition: all 0.5s linear;
+}
+.pre{
+    justify-items: center;
+    background-image: url(cbtisbienvenida.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45%;
+    display: flex;
+}
+.pre ul li a{
+    text-decoration: none;
+}
+.pre ul{
+    list-style: none;
+}
+.pre{
+    margin: 3%;
+    margin-top: 0;
+    background-color: #960000;
+    overflow: hidden;
+    width: 100%;
+}
+.pre ul li a{
+    background-color: #BFA01F;
+    border-radius: 8px;
+    align-items: center;
+    display: inline-block;
+}
+.cobra img{
+    width: 25%;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+.pre .logo img {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    margin:6px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    background: #661616;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
